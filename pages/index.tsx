@@ -26,7 +26,7 @@ export default function Home() {
         <Navbar.Brand>
           <Text
             h3
-            bold
+            b
             css={{
               textGradient: "45deg, $blue600 -20%, #00D2B8 50%",
               marginRight: 8,
