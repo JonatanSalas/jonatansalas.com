@@ -30,16 +30,18 @@ export default function Home() {
       </Head>
       <Navbar isBordered variant="sticky">
         <Navbar.Brand>
-          <Text
-            h3
-            b
-            css={{
-              textGradient: "45deg, $blue600 -20%, #00D2B8 50%",
-              marginRight: 8,
-            }}
-          >
-            Jonatan Salas
-          </Text>
+          <Link href="/">
+            <Text
+              h3
+              b
+              css={{
+                textGradient: "45deg, $blue600 -20%, #00D2B8 50%",
+                marginRight: 8,
+              }}
+            >
+              Jonatan Salas
+            </Text>
+          </Link>
         </Navbar.Brand>
         <Navbar.Content>
           <Navbar.Link
