@@ -19,12 +19,7 @@ import Head from "next/head";
 
 export default function Home() {
   return (
-    <div
-      style={{
-        backgroundImage:
-          "radial-gradient(ellipse at right bottom, #00d2b8 0%,  #000000 47.5%)",
-      }}
-    >
+    <>
       <Head>
         <title>Hi there 👋! I'm Jonatan Salas</title>
       </Head>
@@ -196,6 +191,6 @@ export default function Home() {
           </Grid>
         </Grid.Container>
       </Container>
-    </div>
+    </>
   );
 }

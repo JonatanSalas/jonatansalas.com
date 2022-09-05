@@ -1,3 +1,5 @@
+import "../themes/style.css";
+
 import { NextUIProvider } from "@nextui-org/react";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import { ThemeProvider as NextThemesProvider } from "next-themes";

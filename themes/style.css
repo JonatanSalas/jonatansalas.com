@@ -1,0 +1,8 @@
+html,
+body {
+  background-image: radial-gradient(
+    ellipse at right bottom,
+    #00d2b8 0%,
+    #000000 47.5%
+  );
+}
