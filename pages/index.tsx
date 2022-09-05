@@ -19,7 +19,12 @@ import Head from "next/head";
 
 export default function Home() {
   return (
-    <>
+    <div
+      style={{
+        backgroundImage:
+          "radial-gradient(ellipse at right bottom, #00d2b8 0%,  #000000 47.5%)",
+      }}
+    >
       <Head>
         <title>Hi there 👋! I'm Jonatan Salas</title>
       </Head>
@@ -75,7 +80,7 @@ export default function Home() {
           alignContent="center"
         >
           <Grid xs={12}>
-            <Spacer y={3} />
+            <Spacer y={1.5} />
           </Grid>
           <Grid xs={12} sm={12} md={9.5}>
             <Grid.Container
@@ -120,7 +125,7 @@ export default function Home() {
           </Grid>
           <Grid xs={12} sm={12} md={2.5}>
             <Avatar
-              src="/images/profile.jpeg"
+              src="/images/profile2.jpg"
               css={{
                 size: "$100",
                 background:
@@ -175,7 +180,7 @@ export default function Home() {
                     size="xl"
                     css={{
                       background:
-                        "linear-gradient(45deg, #00D2B8 -0%, $blue600 50%)",
+                        "linear-gradient(45deg, #00D2B8 -0%, $blue600 75%)",
                     }}
                   >
                     Let's get in Touch
@@ -183,12 +188,12 @@ export default function Home() {
                 </Link>
               </Grid>
               <Grid xs={12}>
-                <Spacer y={4} />
+                <Spacer y={3.5} />
               </Grid>
             </Grid.Container>
           </Grid>
         </Grid.Container>
       </Container>
-    </>
+    </div>
   );
 }
