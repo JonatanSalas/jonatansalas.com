@@ -14,7 +14,7 @@ config.autoAddCss = false;
 function MyApp({ Component, pageProps }) {
   return (
     <NextThemesProvider
-      defaultTheme="system"
+      defaultTheme="dark"
       attribute="class"
       value={{
         light: lightTheme.className,
