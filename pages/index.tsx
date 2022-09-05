@@ -190,7 +190,7 @@ export default function Home() {
                 </Link>
               </Grid>
               <Grid xs={12}>
-                <Spacer y={3.5} />
+                <Spacer y={5} />
               </Grid>
             </Grid.Container>
           </Grid>
