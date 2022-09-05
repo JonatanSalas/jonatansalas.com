@@ -6,6 +6,7 @@ import {
   Grid,
   Avatar,
   Spacer,
+  Link,
 } from "@nextui-org/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -164,20 +165,22 @@ export default function Home() {
                 <Spacer y={2} />
               </Grid>
               <Grid xs={12}>
-                <Button
-                  animated
-                  ripple
-                  shadow
-                  auto
-                  color="gradient"
-                  size="xl"
-                  css={{
-                    background:
-                      "linear-gradient(45deg, #00D2B8 -0%, $blue600 50%)",
-                  }}
-                >
-                  Let's get in Touch
-                </Button>
+                <Link href="mailto:jonatan.salas.js@gmail.com?subject=Hello!">
+                  <Button
+                    animated
+                    ripple
+                    shadow
+                    auto
+                    color="gradient"
+                    size="xl"
+                    css={{
+                      background:
+                        "linear-gradient(45deg, #00D2B8 -0%, $blue600 50%)",
+                    }}
+                  >
+                    Let's get in Touch
+                  </Button>
+                </Link>
               </Grid>
               <Grid xs={12}>
                 <Spacer y={4} />
